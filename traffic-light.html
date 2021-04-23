@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Traffic Light Control Board | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Micah Steinbock</a></h1>
+					<nav id="nav">
+						<ul class="icons">
+							<li><a href="https://github.com/CBUmikes930" target="_blank"><span class="fab fa-github-square fa-2x major style1"></span></a></li>
+							<li><a href="https://www.linkedin.com/in/micah-steinbock/" target="_blank"><span class="fab fa-linkedin fa-2x major style2"></span></a></li>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="index.html#about">About Me</a></li>
+										<li><a href="index.html#featured">Featured Projects</a></li>
+										<li><a href="index.html#projects">Other Projects</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Traffic Light Control Board</h2>
+							<p>Developed for EGR425: Real Time &amp; Embedded Development</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<h3>Summary</h3>
+								<p>
+									The traffic light control board was developed as a small-scale demonstration of the logic that goes into a traffic light.
+									The program was developed on an Arduino Uno control board using C++. The software was developed as a Mealy Finite State Machine (FSM) that takes in inputs from the "traffic sensors" (represented by simple push switches) and then determines what state to move to next based on those inputs and the current state.
+									The states are represented by the LEDs which are made to represent a traffic signal (Each set has a red, yellow, and green light).
+								</p>
+
+								<hr />
+
+								<h4>Circuit Design</h4>
+								<p>
+									I designed a circuit schematic using an online tool that allows you to create circuit layouts for Arduino controllers. Then I used my Arduino Uno and some components that I had to create the circuit.
+								</p>
+								<img src="images/circuit-diagram.png" width="45%" style="padding: 0; margin: 0 2%">
+								<img src="images/circuit.jpg" width="45%" style="padding: 0; margin: 0 2%">
+
+								<hr />
+
+								<h4>Coding Logic</h4>
+								<p>
+									The following state diagram was developed and used to understand the logic that would go into the code of the FSM.
+								</p>
+								<img src="images/state-diagram.png" width="45%" style="padding: 0; margin: 0 2%">
+								<br><br>
+								<ul class="actions">
+									<li><a href="https://youtu.be/-0tULni117Y" target="_blank" class="button fit primary"><span class="fab fa-youtube"></span>&nbsp;|&nbsp;View Video Demo</a></li>
+								</ul>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://github.com/CBUmikes930" target="_blank"><span class="fab fa-github-square fa-2x major style1"></span></a></li>
+						<li><a href="https://www.linkedin.com/in/micah-steinbock/" target="_blank"><span class="fab fa-linkedin fa-2x major style2"></span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Contact me at: <a href="mailto:Micahsteinbock@gmail.com">Micahsteinbock@gmail.com</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

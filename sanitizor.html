@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Sanitizor | Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+				<header id="header">
+					<h1><a href="index.html">Micah Steinbock</a></h1>
+					<nav id="nav">
+						<ul class="icons">
+							<li><a href="https://github.com/CBUmikes930" target="_blank"><span class="fab fa-github-square fa-2x major style1"></span></a></li>
+							<li><a href="https://www.linkedin.com/in/micah-steinbock/" target="_blank"><span class="fab fa-linkedin fa-2x major style2"></span></a></li>
+							<li class="special">
+								<a href="#menu" class="menuToggle"><span>Menu</span></a>
+								<div id="menu">
+									<ul>
+										<li><a href="index.html">Home</a></li>
+										<li><a href="index.html#about">About Me</a></li>
+										<li><a href="index.html#featured">Featured Projects</a></li>
+										<li><a href="index.html#projects">Other Projects</a></li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Sanitizor</h2>
+							<p>Developed for EGR423: Mobile Applications Development</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<h3>Summary</h3>
+								<p>
+									Sanitizor is an Android-based mobile game app that was created to bring some joy and light during the time of the pandemic.
+									Themed after the classic arcade-style games of Galaga and Space Invaders, the player controls a bottl of hand sanitizer that is fighting off the evil COVID particles.
+									Each wave brings in more COVID particles that have different attack and movement styles (as shown by their color). 
+									Defeat enemies to gain power-ups, earn points, and clear levels and fight to become the best Sanitizor on the leaderboard. 
+								</p>
+
+								<p>
+									Players can log in using their Google play account to be able to get their score on the leaderboard and compete to be the top.
+									Throughout the game you can shoot drops of sanitizer to fight the COVID particles. Whenever a particle dies, it has a chance to drop a powerup, which the user can pickup and gain bonuses.
+									Powerups include a face-mask which gives an extra life, or upgraded sanitizer bottle which allows the player to shoot rapid-fire for a short time.
+								</p>
+
+								<hr />
+
+								<h4>The Team</h4>
+								<p>
+									This project was developed as part of a team. The team consisted of Jesse Breslin, Chase Crossley, and myself (pictured below from left to right).
+								</p>
+								<img src="images/jesee.jpg" width="30%">
+								<img src="images/chase.jpg" width="30%">
+								<img src="images/Headshot.jpg" width="32%">
+
+								<hr />
+
+								<h4>My Portion of the Project</h4>
+								<p>
+									I worked on a few different areas of the game. The first was I created the player movement systems (joystick screen control and gyroscope-based tilt controls). 
+									I created the Google sign-in feature as well as the score and leaderboard systems. 
+									I also created the player projectile system, the music, sound effects, and the graphics.
+								</p>
+
+								<hr />
+
+								<h4>Technical Details</h4>
+								<p>
+									The project was created using Android Studio with Java. We used a Canvas-based screen to draw the player and the enemies.
+									We used frame-based animation that changed the sprite of the object in order to show animations. We used math with Rect bounds in order to perform collision detection.
+									We used a Firestore Database for the leaderboard which uses a Google sign-in to relate the scores to the user.
+								</p>
+
+								<ul class="actions">
+									<li><a href="https://github.com/CBUmikes930/Sanitizor" target="_blank" class="button fit primary"><span class="fab fa-github"></span>&nbsp;|&nbsp;View GitHub Repository</a></li>
+									<li><a href="https://youtu.be/pZHwdJllxng" target="_blank" class="button fit primary"><span class="fab fa-youtube"></span>&nbsp;|&nbsp;View Video Demo</a></li>
+								</ul>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://github.com/CBUmikes930" target="_blank"><span class="fab fa-github-square fa-2x major style1"></span></a></li>
+						<li><a href="https://www.linkedin.com/in/micah-steinbock/" target="_blank"><span class="fab fa-linkedin fa-2x major style2"></span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Contact me at: <a href="mailto:Micahsteinbock@gmail.com">Micahsteinbock@gmail.com</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

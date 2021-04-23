@@ -18,7 +18,7 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-				<header id="header" class="alt">
+				<header id="header">
 					<h1><a href="index.html">Micah Steinbock</a></h1>
 					<nav id="nav">
 						<ul class="icons">
@@ -50,15 +50,31 @@
 
 								<h3>Summary</h3>
 								<p>
-									
+									DnDesigner is a web app that allows users to create and customize characters for the massively popular 5th Edition of Dungeons &amp; Dragons.
+									The app allows users to create an account and then create characters which are saved to that account. 
+									The website is still a work in progress and currently only has character options from the <i>Player's Handbook</i>.
 								</p>
 
 								<p>
-									
+									Through this app, you can select a race, class, background as well as roll for your random ability scores.
+									Once you've done that, you are taken to a page that resembles the character sheet that allows you to assign your abilies their score, select your skill proficiencies, select your equipment and view your features and traits.
 								</p>
 
-								<ul class="actions stacked">
+								<hr />
+
+								<h4>Technical Details</h4>
+								<p>
+									This web app was created using NodeJS. Express was used to easily configure the routes and pages of the backend server. EJS was used along with the templating engine in order to create more dynamic web pages.
+									The web pages were created with HTML, CSS, and Javascript (EJS and JQuery). The app uses a MongoDB backend in order to store user information and characters as well as all of the D&amp;D data which was taken from the <i>Player's Handbook</i>.
+								</p>
+
+								<p>
+									The website is currently being hosted on an AWS EC2 Server running linux.
+								</p>
+
+								<ul class="actions">
 									<li><a href="https://github.com/CBUmikes930/EGR424-DnDesigner" target="_blank" class="button fit primary"><span class="fab fa-github"></span>&nbsp;|&nbsp;View GitHub Repository</a></li>
+									<li><a href="http://35.175.145.111:3000/" target="_blank" class="button fit primary"><span class="fas fa-laptop-code"></span>&nbsp;|&nbsp;View Website</a></li>
 								</ul>
 							</div>
 						</section>
