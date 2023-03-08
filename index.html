@@ -56,9 +56,9 @@
 							<header class="major">
 								<h2>About Me</h2>
 								<p>
-									I am a Software Engineer currently working as the Tech and Data Management Lead at Pacific Lock Company in Valencia, California.<br><br>
-									I graduated from California Baptist University in Fall of 2021 with my B.S. in Software Engineering, Summa Cum Laude.<br><br>
-									This is a portfolio of my various projects that I have created through the course of my time at CBU, my personal projects and my work as a freelance web developer.
+									I am a Software Engineer currently working as the Technology and Data Management Lead at Pacific Lock Company in Valencia, California where I am responsible for application and database creation and management. I am also the project manager and lead developer for PAC-BLU, a multi-platform application used to control BLE-enabled devices to create locking solutions that can be controlled by a smartphone and managed by a web application.<br><br>
+									I graduated from California Baptist University in Fall of 2021 with my B.S. in Software Engineering.<br><br>
+									This is a portfolio of my various projects that I have created throughout my time at CBU as well as my personal and professional projects.
 								</p>
 							</header>
 							<ul class="icons major">
@@ -70,12 +70,40 @@
 
 				<!-- Two -->
 					<section id="featured" class="wrapper alt style2">
-						<h2 style="text-align: center; font-size: 200%; margin:0; padding: 2em 0; text-decoration: underline;">Featured Projects</h1>
+						<h2 style="text-align: center; font-size: 200%; margin:0; padding: 2em 0; text-decoration: underline;">Featured Projects</h2>
 
+						<section class="spotlight">
+							<div class="image">
+								<figure>
+									<img src="images/grand_prix_2.png" alt="" />
+									<figcaption>The user registration screen where a user can enter a racer name and assign them to a group.</figcaption>
+								</figure>
+								<hr>
+								<figure>
+									<img src="images/grand_prix_1.png" alt="" />
+									<figcaption>The race screen showing current racers, results, and advancing racers.</figcaption>
+								</figure>
+							</div>
+							<div class="content">
+								<h2>Grand Prix Race Controller</h2>
+								<p>A NodeJS-based web app that manages racers in a double-elimination tournament. The program allows for the registration of racers, the running of races and tracks the 
+									status of racers as they win and lose races until they are either eliminated or make it to the finals. The final race ends with a 1st, 2nd and 3rd place winner.
+									<br><br>
+									This system was created using a NodeJS server to control and track the race progress, a MongoDB database to hold the racers data and race history, and Sockets to update
+									connections to display the current racers as well as the racers that are up next.
+								</p>
+								<hr>
+								<p><strong>Languages:</strong> <i>Javascript (NodeJS, JQuery, ReactJS), HTML, CSS, MongoDB</i></p>
+								<hr>
+								<ul class="actions stacked">
+									<li><a href="https://github.com/CBUmikes930/AWANA-Grand-Prix" target="_blank" class="button fit"><span class="fab fa-github"></span>&nbsp;|&nbsp;View GitHub Repository</a></li>
+								</ul>
+							</div>
+						</section>
 						<section class="spotlight">
 							<div class="image"><img src="images/software.jpg" alt="" /></div><div class="content">
 								<h2>IDEal Classroom</h2>
-								<p>Created as group project for EGR302: Engineering Design and Documentation for Dr. Mikyung Han (Client) and Dr. Kyungsoo Im (Instructor/Advisor)
+								<p>Created as a group project for EGR302: Engineering Design and Documentation for Dr. Mikyung Han (Client) and Dr. Kyungsoo Im (Instructor/Advisor)
 									<br><br>
 									IDEal Classroom is an online application that allows professors to create coding homework assignments for use in software and computer science classes.
 									<br>
@@ -84,7 +112,7 @@
 									Students can create accounts and register for certain classes which allow them to access classes and upload assignments as well as get instant feedback once the assignment is graded.
 								</p>
 								<hr>
-								<p><strong>Languages:</strong> <i>Python (with Django), HTML, CSS (with Bootstrap), Javascript, Java</i></p>
+								<p><strong>Languages:</strong> <i>Python (Django), HTML, CSS (with Bootstrap), Javascript, Java</i></p>
 								<hr>
 								<ul class="actions">
 									<li><a href="https://github.com/APet99/IDEal-Classroom" target="_blank" class="button fit"><span class="fab fa-github"></span>&nbsp;|&nbsp;View GitHub Repository</a></li>
@@ -99,10 +127,10 @@
 								<p>A Flask-based barcode generation REST API that allows for the creation of many types of barcodes (including Code128, Code39, EAN8, and more) as well as QR Codes.
 									<br><br>
 									This service allows you to make calls to a web server and pass in the type of barcode you want to have generated and the data as well as optional parameters for the
-									size and margins of the barcode, which is then returned to you.
+									size and margins of the barcode, which is then returned to you in the form of a PNG image.
 								</p>
 								<hr>
-								<p><strong>Languages:</strong> <i>Python (with Flask)</i></p>
+								<p><strong>Languages:</strong> <i>Python (Flask)</i></p>
 								<hr>
 								<ul class="actions stacked">
 									<li><a href="https://github.com/CBUmikes930/REST-Barcode" target="_blank" class="button fit"><span class="fab fa-github"></span>&nbsp;|&nbsp;View GitHub Repository</a></li>
@@ -134,7 +162,7 @@
 									<h3>Senior Capstone:<br><i>The Book of Jedidiah</i></h3>
 									<p class="non-bold">Developed for EGR401 &amp; EGR402: Senior Design &amp; Presentation
 										<br><br>
-										A computer-based Christian-themed RPG-style video game where the player must defeat enemies and fight bosses in order to save his brother from the Seven Deadly Sins.</p>
+										A computer-based, Christian-themed, RPG-style video game where the player must defeat enemies and fight bosses in order to save his brother from the Seven Deadly Sins.</p>
 									<p class="non-bold"><strong>Languages:</strong> <i>C#</i></p>
 									
 									<a href="senior-capstone.html" class="button fit primary">Learn More</a>
@@ -143,9 +171,9 @@
 									<h3>DnDesigner</h3>
 									<p class="non-bold">Developed for EGR424: Web Applications Development. 
 										<br><br>
-										Create and customize Dungeons &amp; Dragons characters based on the popular 5th Edition of the RPG game.
+										A web-based application that facilitates the creation and customization of Dungeons &amp; Dragons characters based on the popular 5th Edition of the RPG game.
 									</p>
-									<p class="non-bold"><strong>Languages:</strong> <i>NodeJS, HTML, CSS, JQuery, MongoDB</i></p>
+									<p class="non-bold"><strong>Languages:</strong> <i>Javascript (NodeJS, JQuery), HTML, CSS, MongoDB</i></p>
 									
 									<a href="dndesigner.html" class="button fit primary">Learn More</a>
 								</li>

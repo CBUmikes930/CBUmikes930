@@ -2142,6 +2142,11 @@ input, select, textarea {
 				width: 100%;
 			}
 
+figcaption {
+	font-size: small;
+	text-align: center;
+}
+
 /* List */
 
 	ol {
